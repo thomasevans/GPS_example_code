@@ -50,7 +50,7 @@ map.track <- function(col.points = "PuBuGn", long, lat, mov.param, asc = TRUE){
            }
   
   
-  #Addd a border to the map.
+  #Add a border to the map.
   box()
   
   #Add axis and labels
@@ -58,5 +58,5 @@ map.track <- function(col.points = "PuBuGn", long, lat, mov.param, asc = TRUE){
   axis(side=(2),las=1)
   
   #Add a scale bar
-  map.scale(ratio=FALSE,relwidth = 0.4, cex = 1)
+  map.scale(ratio = FALSE,relwidth = 0.4, cex = 0.4)
 }
