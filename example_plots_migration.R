@@ -16,7 +16,7 @@ head(m1)
 pdf("map_example.pdf")
 
 # Run function 'map.track' on our data
-map.track(col.points = "PuRd", long = m1$longitude[f],
+map.track(col.points = "PuRd", long = m1$longitude,
           lat = m1$latitude,
           mov.param = (m1$inst_ground_speed/ max(m1$inst_ground_speed)),
           asc = "TRUE")
